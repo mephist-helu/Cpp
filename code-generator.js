@@ -1092,7 +1092,11 @@ class CppCodeGenerator {
       var innerElement = []
       for (i = 0; i < elem.ownedElements.length; i++) {
         var element = elem.ownedElements[i]
-        if (element instanceof type.UMLClass || element instanceof type.UMLEnumeration || element instanceof type.UMLSignal) {
+        if (element instanceof type.UMLClass ||
+          element instanceof type.UMLInterface ||
+          element instanceof type.UMLDataType ||
+          element instanceof type.UMLEnumeration ||
+          element instanceof type.UMLSignal) {
           innerElement.push(element)
         }
       }
