@@ -13,6 +13,7 @@ function getGenOptions () {
     windows: app.preferences.get('cpp.gen.windows'),
     implementation: app.preferences.get('cpp.gen.implementation'),
     useSmartPtr: app.preferences.get('cpp.gen.useSmartPtr'),
+    useM_Pre: app.preferences.get('cpp.gen.useM_Pre'),
     useTab: app.preferences.get('cpp.gen.useTab'),
     useQt: app.preferences.get('cpp.gen.useQt'),
     indentSpaces: app.preferences.get('cpp.gen.indentSpaces'),

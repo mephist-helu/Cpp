@@ -18,6 +18,12 @@
       "type": "check",
       "default": false
     },
+    "cpp.gen.useM_Pre": {
+      "text": "Use m_ prefix",
+      "description": "Use \"m_\" prefix for all non public member variable",
+      "type": "check",
+      "default": false
+    },
     "cpp.gen.implementation": {
       "text": "Implementation model step",
       "description": "Add all necessary methods for implementation model",

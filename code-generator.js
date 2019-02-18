@@ -2899,7 +2899,7 @@ class CppCodeGenerator {
 
     // name
     var _nameStr = elem.name
-    if (isMemberVariable && elem.visibility !== type.UMLModelElement.VK_PUBLIC) {
+    if (isMemberVariable && elem.visibility !== type.UMLModelElement.VK_PUBLIC && this.genOptions.useM_Pre) {
       _nameStr = 'm_' + _nameStr
     }
 
